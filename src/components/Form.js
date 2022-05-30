@@ -4,7 +4,7 @@ import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 
 const Form = ({ inputText, status, setStatus, setInputText, todos, setTodo }) => {
     const inputTextHolder = (e) => {
-        console.log(e.target.value);     // (e) tells me info about what happens with input field
+        console.log(e.target.value);
         setInputText(e.target.value);
     };
     const statusHolder = (e) => {
